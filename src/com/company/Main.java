@@ -7,7 +7,6 @@ public class Main {
 
     public static void main(String[] args) {
         int randomNumber = new Random().nextInt(100);
-        System.out.println("random number is " + randomNumber);
 
         System.out.println("Please guess the number from the range 0-99. You have 5 attempts!");
         Scanner number = new Scanner(System.in);
